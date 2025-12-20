@@ -77,6 +77,11 @@ namespace ProyCRUDCORE.Controllers
             _DBContext.SaveChanges();
             return RedirectToAction("Index","Home");
         }
+
+        public IActionResult FrancheskaNavarro()
+        {
+            return View();
+        }
     }
 
     }
